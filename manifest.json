@@ -1,0 +1,27 @@
+{
+	"manifest_version": 3,
+	"name": "Jettison",
+	"description": "An Extentsion to Jettison AI From Your Web Presence",
+	"version": "1.0",
+	"icons": {
+		"128": "hello_extensions.png"
+	},
+	"action": {
+		"default_icon": {
+			"128": "hello_extensions.png"
+		}
+	},
+	"background": {
+		"service_worker": "popup.js"
+	},
+	"permissions": ["activeTab", "scripting"],
+	"commands": {
+		"_execute_action": {
+			"suggested_key": {
+				"default": "Ctrl+B",
+				"mac": "Command+B"
+			}
+		}
+	}
+}
+
