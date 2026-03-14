@@ -6,8 +6,9 @@
 	"icons": {
 		"128": "Galaxy_brain_128.png",
 		"64": "Galaxy_brain_64.png",
-		"32": "Galaxy_brain_32.png",	
+		"32": "Galaxy_brain_32.png",
 		"16": "Galaxy_brain_16.png"
+
 	},
 	"content_scripts": [
 		{

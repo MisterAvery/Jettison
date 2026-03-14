@@ -27,6 +27,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	opactity: 0.9;
 }
 
 #jettison-app-header {
